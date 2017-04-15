@@ -1,0 +1,44 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+
+    <!-- UWAGA! Nie czyta spacji po ostatnim słowie, trzeba ją oddać w MainActivity.java -->
+
+    <string name="app_name">Just Java</string>
+
+    <!-- Header text for the list of toppins [CHAR LIMIT = 20] -->
+    <string name="toppings">Toppings</string>
+
+    <!-- Thank you message for the order summary. [CHAR LIMIT = NONE] -->
+    <string name="thank_you">Thank you!</string>
+
+    <!--Name for the order sumary. It will be shown in the format of "Name: Amy" where Amy is the user's name.
+    %s pokazuje,    w którym miesjcu pojawi się wprowadzone przeze użytkownika imię-->
+    <string name="order_summary_name"> Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+
+    <!-- Podpowiedź do wpisywania tekstu  -->
+    <string name="name">Name</string>
+
+
+    <string name="whipped_cream">Whipped cream</string>
+    <string name="chocolate">Chocolate</string>
+
+    <string name="add_whipped_cream">Add whipped cream?</string>
+    <string name="add_chocolate">Add chocolate? </string>
+
+    <string name="quantity">Quantity</string>
+
+    <string name="total_price">Total: <xliff:g id="price" example="$40">%s</xliff:g></string>
+
+
+    <string name="order_summary">Order summary</string>
+
+    <string name="order">Order</string>
+
+    <string name="toast_cant_order_less">You cannot have less than 1 coffee</string>
+    <string name="toast_cant_order_more">You cannot have more than 100 coffees</string>
+
+
+
+</resources>
