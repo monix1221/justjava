@@ -1,5 +1,5 @@
 # justjava
-Simple app for ordering coffee and sending an email
+Simple app for ordering coffee and sending the order via email
 
 Here is one of my first apps. Simple app for ordering coffee. 
 <p align="center">
